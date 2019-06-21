@@ -6,7 +6,7 @@
     * 你有兴趣总归自己下过git吧
     * git init 初始化过项目吧
     * git add / git commit 提交过点东西吧
-    * git diff 比价过文件吧
+    * git diff 比较过文件吧
     * git reset / git revert 回退过版本之类的也玩过吧
     * 等等，这里不在补充git命令了，之后的教学应该是以界面操作为主
     * 就是没有和远程的项目建立过连接，没有玩过github吧(这个就是建立项目的目的了)
