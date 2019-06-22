@@ -6,10 +6,10 @@
     3. 测试环境 sit (我司是sit和uat在一起的)
     4. 用户验收测试 uat 
  2. gitflow
-    0. [安装](https://www.jianshu.com/p/714ba65e0e65)
-    1. 不用专业的术语解释,用白话文
-    2. [参考文章](https://blog.csdn.net/aaaaaaliang/article/details/79451598)
-    3. 主要的线
+    1. [安装](https://www.jianshu.com/p/714ba65e0e65)
+    2. 不用专业的术语解释,用白话文
+    3. [参考文章](https://blog.csdn.net/aaaaaaliang/article/details/79451598)
+    4. 主要的线
         1. master
             * 生产的线
             * 最为稳定功能比较完整的随时可发布的代码，
@@ -31,7 +31,7 @@
         5. hotfix
             * 修复bug
             * 用于修复线上代码的bug。**从 master 分支上拉。**完成 hotfix 后，打上 tag 我们合并回 master 和 develop 分支。
-    4. 注意事项
+    5. 注意事项
         * 所有开发分支从 develop 分支拉。
         * 所有 hotfix 分支从 master 拉。 
         * 所有在 master 上的提交都必要要有 tag，方便回滚。
