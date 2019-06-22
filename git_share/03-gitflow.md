@@ -11,7 +11,12 @@
     2. [参考文章](https://blog.csdn.net/aaaaaaliang/article/details/79451598)
     3. 主要的线
         1. master
+            * 生产的线
         2. dev
+            * 开发的线
         3. feature
+            * 开发新功能
         4. release
+            * 测试
         5. hotfix
+            * 修复bug
