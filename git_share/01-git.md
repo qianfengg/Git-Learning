@@ -22,6 +22,7 @@
     ![](./images/测试git是否连通.jpg)
     
 8. 项目右键git，之后可以可视化操作，对应的执行自行学习
-    比如 git commit相当于`Ctrl+K`+写提交信息+点击按钮
+    比如 git commit相当于**Ctrl+K**+写提交信息+点击按钮
+    **Ctrl+Shift+K**提交到远端
     
       
