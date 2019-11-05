@@ -4,6 +4,10 @@
 > 介绍建立项目的原因
 0. 这个项目还是需要自己简单玩过git指令的，在本地搭建过库的
     * 你有兴趣总归自己下过git吧
+    * [起步-初次运行-Git-前的配置](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%88%9D%E6%AC%A1%E8%BF%90%E8%A1%8C-Git-%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE)
+        1. 配置用户名 - `git config --global user.name "John Doe"`
+        2. 配置邮箱 - `git config --global user.email johndoe@example.com`
+        3. 查看配置信息 - `git config --list`
     * git init 初始化过项目吧
     * git add / git commit 提交过点东西吧
     * git diff 比较过文件吧

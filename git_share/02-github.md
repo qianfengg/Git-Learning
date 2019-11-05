@@ -59,6 +59,28 @@
         * 在参与改代码
         * 在PR,向作者申请看下自己提交的代码
         * 在等作者MR，作者决定要不要把你的代码合并到自己的项目里
+        
+6. ssh配置
+    * 使用SSH可以使我们push和pull相对HTTPS快，理论是这样~
+    * 配置SSH就可以不用每次输入账号密码
+    * 首先我们来看下github默认Clone or download使用的是Use HTTPS,然后我们可以看到右上角可以点击Use SSH
+    
+        ![](./images/点击SSH按钮.jpg) 
+        
+    * 所以先来一波ssh的知识，参考[这篇文章](https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
+        1. 生成ssh - `ssh-keygen -t rsa -C "youremail@example.com"`
+        2. 查看 - `cat ~/.ssh/id_rsa.pub`
+        3. 也可以通过**C:\Users\用户名\.ssh**文件下，找到id_rsa.pub,用编辑器打开，然后复制
+    * 在到github上配置
+    
+        ![](./images/配置SSH.jpg)
+        
+    * 然后在看下[这篇文章](https://blog.csdn.net/JNingWei/article/details/78756244) 
+        1. 先看下远端用的是HTTPS还是SSH - `git remote -v`
+        2. 如果是HTTPS就删除 - `git remote rm origin`
+        3. 使用第一步的指令，可以看下是否删除
+        4. 添加新的远端 - `git remote add origin git@github.com:xxx/xxxxxx.git`
+        5. 在使用第一步看下添加SSH是否成功
    
 * [目录](./00-git知识分享.md)        
     
