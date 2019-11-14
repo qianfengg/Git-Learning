@@ -81,7 +81,45 @@
         3. 使用第一步的指令，可以看下是否删除
         4. 添加新的远端 - `git remote add origin git@github.com:xxx/xxxxxx.git`
         5. 在使用第一步看下添加SSH是否成功
+
+7. 查找开源项目的一些技巧
+    * 这边通过讲几个例子来说明查找项目的一些技巧
+    * 比如我搜索node项目，我就在搜索框里打上node，然后查询，发现有有74万+的仓库
+        
+        ![](./images/直接打关键字搜索编程语言.jpg)   
+    
+    * 这里要先说下几个点，用我现有的仓库举例
+    
+        ![](./images/仓库的三要素.jpg)
+        
+    * 所以这次我们在搜索框中输入`in:name node`,代表在名字中搜索node的仓库，这次范围缩小了，有52万+的仓库 
+    
+        ![](./images/通过名字搜索仓库.jpg)   
+        
+    * 这次我们追加条件`in:name node stars:>200`,这个指的是在名字有node的并且stars数量大于200的，有1000多的仓库 
+    
+        ![](./images/追加starts条件.jpg)  
+        
+    * 同理也可以加**forks:>100**,就是可以看forks的数量,这里就不演示了    
+    
+    * 我们也可以在**readme**里搜索,使用`in:readme node`
+    
+    * 我们也可以在描述中找仓库，比如`in:description 组件`,关于组件的仓库有2万多
+    
+        ![](./images/在描述中找关键字.jpg)
+        
+    * 同时我们也可以追加编程语言，`in:description 组件 language:JavaScript`,此时找到的就只有8000不到了
+    
+        ![](./images/追加语言设置.jpg)   
    
+    * 还可以根据更新时间筛选，追加`pushed:>2019-09-01`,这里就不演示了 
+    
+    * 这里实际操作一把，比如我要找node爬虫,星级大于500,并且在19年更新过
+    
+        ![](./images/案例.jpg)
+        
+    * 上述条件是这么写的`in:description 爬虫 language:JavaScript stars:>500 pushed:>2019-01-01`    
+       
 * [目录](./00-git知识分享.md)        
     
     
