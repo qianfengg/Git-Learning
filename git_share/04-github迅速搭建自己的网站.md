@@ -47,7 +47,9 @@
 
     ![](./images/同步后的仓库.jpg)
 
-* 接下去就是大家去[Gridea](https://gridea.dev/) 学习，创造自己的网站吧~  
+* 接下去就是大家去[Gridea](https://gridea.dev/) 学习，创造自己的网站吧~ 
+
+* [简单的教程视频](https://www.bilibili.com/video/av69627579/)
 
 * 全速访问github
     * 找到hosts目录**C:\Windows\System32\drivers\etc** 
