@@ -20,3 +20,4 @@
 4. **并不是说git指令没什么用**，能系统的学习git命令也是非常不错的，但为了快速上手，
     所以这边不做系统的学习
 5. [跟着我来学习吧~~](./git_share/00-git知识分享.md)  
+6. [如何更新fork的项目](https://blog.csdn.net/wangbaochu/article/details/49470453)
