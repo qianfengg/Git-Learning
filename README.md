@@ -21,3 +21,4 @@
     所以这边不做系统的学习
 5. [跟着我来学习吧~~](./git_share/00-git知识分享.md)  
 6. [如何更新fork的项目](https://blog.csdn.net/wangbaochu/article/details/49470453)
+7. [ssh相关](https://www.cnblogs.com/z-x-y/p/8284504.html)
